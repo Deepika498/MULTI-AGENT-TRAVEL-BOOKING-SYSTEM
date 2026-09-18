@@ -355,7 +355,7 @@ st.markdown("<br>", unsafe_allow_html=True)
 # ── Input ─────────────────────────────────────────────────────────────────────
 st.markdown("<div class='input-label'>🗺️ Describe your trip</div>", unsafe_allow_html=True)
 
-QUICK = ["7-day Japan under ₹2L", "Paris trip for 5 days", "Dubai weekend trip", "Bali backpacking 10 days"]
+QUICK = ["7-day Japan under ₹2L", "Paris trip for 5 days", "Dubai holiday trip", "Bali trip for 10 days"
 qcols = st.columns(len(QUICK))
 quick_fill = ""
 for qc, label in zip(qcols, QUICK):
